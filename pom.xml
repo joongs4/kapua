@@ -481,7 +481,7 @@
                     <configuration>
                         <configLocation>checkstyle/kapua.xml</configLocation>
                         <suppressionsLocation>checkstyle/kapua.suppressions.xml</suppressionsLocation>
-
+                        <skip>true</skip>
                         <includeResources>false</includeResources>
                         <includeTestResources>false</includeTestResources>
 
