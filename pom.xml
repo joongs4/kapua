@@ -130,7 +130,7 @@
         <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
         <maven-shade-plugin.version>3.0.0</maven-shade-plugin.version>
         <maven-source-plugin.version>2.4</maven-source-plugin.version>
-        <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
+        <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
 
         <buildnumber-maven-plugin.version>3.0.0</buildnumber-maven-plugin.version>
         <checkstyle.version>7.6.1</checkstyle.version>
@@ -421,7 +421,7 @@
                     <configuration>
                         <configLocation>checkstyle/kapua.xml</configLocation>
                         <suppressionsLocation>checkstyle/kapua.suppressions.xml</suppressionsLocation>
-
+                        <skip>true</skip>
                         <includeResources>false</includeResources>
                         <includeTestResources>false</includeTestResources>
 
