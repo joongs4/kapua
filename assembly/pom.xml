@@ -80,7 +80,7 @@
                             <image>
                                 <build>
                                     <tags>
-                                        <tag>${project.version}</tag>
+                                        <tag>${project.version}-NEXTREE</tag>
                                     </tags>
                                 </build>
                             </image>
